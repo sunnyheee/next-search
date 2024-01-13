@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "Search",
   description: "Search",
@@ -6,7 +8,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ko">
-      <body>{children}</body>
+      <body className=" bg-gray-100">{children}</body>
     </html>
   );
 }
